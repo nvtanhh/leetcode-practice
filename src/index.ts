@@ -1,7 +1,8 @@
-import { testFindMaxAverage } from "./0643-maximum_average_subarray";
+import { testRemoveElement } from "./0027_remove_element";
 
 function main() {
-    testFindMaxAverage()
+    testRemoveElement()
+    // testFindMaxAverage()
     // testMaxSubArray()
     // testIsPalindrome()
     // testRomanToInt();
