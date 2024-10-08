@@ -1,7 +1,8 @@
-import { testContainsDuplicate } from "./0217-contains_duplicate";
+import { testAddTwoNumbers } from "./0002-add_two_numbers";
 
 function main() {
-    testContainsDuplicate()
+    testAddTwoNumbers()
+    // testContainsDuplicate()
     // testRemoveElement()
     // testFindMaxAverage()
     // testMaxSubArray()
