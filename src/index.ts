@@ -1,8 +1,8 @@
-import { testIsPalindrome } from './0009-palindrome_number';
-import { testMaxSubArray } from './0053-max_subarray';
+import { testFindMaxAverage } from "./0643-maximum_average_subarray";
 
 function main() {
-    testMaxSubArray()
+    testFindMaxAverage()
+    // testMaxSubArray()
     // testIsPalindrome()
     // testRomanToInt();
     // testRemoveDuplicates();
