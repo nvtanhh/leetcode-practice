@@ -1,7 +1,8 @@
-import { testAddTwoNumbers } from "./0002-add_two_numbers";
+import { testMajorityElement } from "./0169-majority_element";
 
 function main() {
-    testAddTwoNumbers()
+    testMajorityElement()
+    // testAddTwoNumbers()
     // testContainsDuplicate()
     // testRemoveElement()
     // testFindMaxAverage()
