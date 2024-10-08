@@ -1,7 +1,8 @@
-import { testRemoveElement } from "./0027_remove_element";
+import { testContainsDuplicate } from "./0217-contains_duplicate";
 
 function main() {
-    testRemoveElement()
+    testContainsDuplicate()
+    // testRemoveElement()
     // testFindMaxAverage()
     // testMaxSubArray()
     // testIsPalindrome()
