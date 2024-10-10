@@ -3,9 +3,6 @@ import { createLinkedList, ListNode } from "./models/listnode";
 function hasCycle(head: ListNode | null): boolean {
     const set = new Set();
 
-    console.log(head);
-
-
     let cur = head;
     while (true) {
         if (!cur) {
