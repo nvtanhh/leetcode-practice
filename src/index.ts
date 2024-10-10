@@ -1,8 +1,8 @@
-import { testIsHappy } from "./202-happy_numer";
-import { testShortestToChar } from "./821-shortest_distance_to_a_character";
+import { testValidIsPalindrome } from "./0680-valid_palindrome_II";
 
 function main() {
-    testIsHappy();
+    testValidIsPalindrome()
+;    // testIsHappy();
     // testShortestToChar()
     // testGetIntersectionNode()
     // testHasCycle()

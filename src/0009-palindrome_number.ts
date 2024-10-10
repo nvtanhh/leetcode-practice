@@ -29,6 +29,8 @@ function isPalindrome(x: number): boolean {
     /// 2. Adjust the Number:
 
     // Find the divisor to extract the leading digit
+    // eg: 121 => 100
+    // 1234 => 1000
     let div = 1;
     while (x > div * 10) {
         div *= 10
