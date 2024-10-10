@@ -1,8 +1,8 @@
-import { testHasCycle } from "./0141-linked_list_cycle";
-import { testGetIntersectionNode } from "./0160-intersection_of_two_linked_lists";
+import { testShortestToChar } from "./0942-di-string-match";
 
 function main() {
-    testGetIntersectionNode()
+    testShortestToChar()
+    // testGetIntersectionNode()
     // testHasCycle()
     // testLongestPalindrome();
     // testMaxProfit();
