@@ -1,7 +1,9 @@
-import { testShortestToChar } from "./0942-di-string-match";
+import { testIsHappy } from "./202-happy_numer";
+import { testShortestToChar } from "./821-shortest_distance_to_a_character";
 
 function main() {
-    testShortestToChar()
+    testIsHappy();
+    // testShortestToChar()
     // testGetIntersectionNode()
     // testHasCycle()
     // testLongestPalindrome();
