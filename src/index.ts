@@ -1,9 +1,8 @@
-import { testLongestPalindrome } from "./0005-longest_palindrome";
-import { testMaxProfit } from "./0121-best_time_to_buy_and_sell_stock";
-import { testMajorityElement } from "./0169-majority_element";
+import { testHasCycle } from "./0141-linked_list_cycle";
 
 function main() {
-    testLongestPalindrome();
+    testHasCycle()
+    // testLongestPalindrome();
     // testMaxProfit();
     // testMajorityElement()
     // testAddTwoNumbers()

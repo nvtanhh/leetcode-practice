@@ -1,11 +1,4 @@
-class ListNode {
-    val: number
-    next: ListNode | null
-    constructor(val?: number, next?: ListNode | null) {
-        this.val = (val === undefined ? 0 : val)
-        this.next = (next === undefined ? null : next)
-    }
-}
+import { createLinkedList, ListNode } from "./models/listnode";
 
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
     /*
@@ -46,16 +39,6 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
 
 
 export function testAddTwoNumbers() {
-    function createLinkedList(arr: number[]): ListNode | null {
-        let dummyHead = new ListNode(0);
-        let current = dummyHead;
-        for (let num of arr) {
-            current.next = new ListNode(num);
-            current = current.next;
-        }
-        return dummyHead.next;
-    }
-
     function linkedListToArray(list: ListNode | null): number[] {
         let arr: number[] = [];
         while (list !== null) {
