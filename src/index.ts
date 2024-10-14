@@ -1,7 +1,8 @@
-import { testValidIsPalindrome } from "./0680-valid_palindrome_II";
+import { testLengthOfLongestSubstring } from "./0003-longest_without_repeat_char";
 
 function main() {
-    testValidIsPalindrome()
+    testLengthOfLongestSubstring()
+    // testValidIsPalindrome()
 ;    // testIsHappy();
     // testShortestToChar()
     // testGetIntersectionNode()
