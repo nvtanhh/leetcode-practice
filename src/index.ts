@@ -1,7 +1,9 @@
+import { testIsAnagram } from "./0242-valid_anagram";
 import { testSorts } from "./_sorts";
 
 function main() {
-    testSorts()
+    testIsAnagram();
+    // testSorts()
     // testSortColors();
     // testMinSubArrayLen()
     // testLengthOfLongestSubstring()
