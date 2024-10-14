@@ -1,7 +1,8 @@
-import { testLengthOfLongestSubstring } from "./0003-longest_without_repeat_char";
+import { testMinSubArrayLen } from "./0209-minimum_size_subarray_sum";
 
 function main() {
-    testLengthOfLongestSubstring()
+    testMinSubArrayLen()
+    // testLengthOfLongestSubstring()
     // testValidIsPalindrome()
 ;    // testIsHappy();
     // testShortestToChar()
