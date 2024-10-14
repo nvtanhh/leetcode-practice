@@ -1,10 +1,12 @@
+import { testSortColors } from "./0075-sort_colors";
 import { testMinSubArrayLen } from "./0209-minimum_size_subarray_sum";
 
 function main() {
-    testMinSubArrayLen()
+    testSortColors();
+    // testMinSubArrayLen()
     // testLengthOfLongestSubstring()
     // testValidIsPalindrome()
-;    // testIsHappy();
+    ;    // testIsHappy();
     // testShortestToChar()
     // testGetIntersectionNode()
     // testHasCycle()
