@@ -7,7 +7,7 @@ export class ListNode {
     }
 }
 
-
+// Helper function to create a linked list from an array
 export function createLinkedList(arr: number[]): ListNode | null {
     if (arr.length === 0) return null;
     const head = new ListNode(arr[0]);
@@ -17,4 +17,15 @@ export function createLinkedList(arr: number[]): ListNode | null {
         current = current.next;
     }
     return head;
+}
+
+// Helper function to convert a linked list to an array
+export function linkedListToArray(head: ListNode | null): number[] {
+    const arr: number[] = [];
+    let current = head;
+    while (current !== null) {
+        arr.push(current.val);
+        current = current.next;
+    }
+    return arr;
 }
