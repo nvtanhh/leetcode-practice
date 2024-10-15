@@ -1,23 +1,33 @@
+/**
+ * Determines if two strings are anagrams of each other.
+ * An anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
+ * typically using all the original letters exactly once.
+ *
+ * @param s - The first string to compare.
+ * @param t - The second string to compare.
+ * @returns A boolean indicating whether the two strings are anagrams.
+ */
 function isAnagram(s: string, t: string): boolean {
-    if (s.length != t.length) return false;
+    // Edge case
+    if (s.length !== t.length) return false;
 
-    const charCount = {};
+    const map = new Map<string, number>();
 
-    for (var char of s) {
-        charCount[char] = (charCount[char] ?? 0) + 1;
+    for (const char of s) {
+        map.set(char, (map.get(char) ?? 0) + 1)
     }
 
-    for (var char of t) {
-        if (!charCount[char]) return false;
-        charCount[char]--;
+    for (const char of t) {
+        if (!map.has(char) || map.get(char) === 0) return false;
+        map.set(char, map.get(char)! - 1);
     }
 
-    for (const count of Object.values(charCount)) {
-        if (count !== 0) return false;
+    for (const count of map.values()) {
+        if (count !== 0) return false
     }
 
     return true;
-};
+}
 
 
 export function testIsAnagram() {
