@@ -1,8 +1,8 @@
-import { testIsAnagram } from "./0242-valid_anagram";
-import { testSorts } from "./_sorts";
+import { testGroupAnagrams } from "./0049-group_anagram";
 
 function main() {
-    testIsAnagram();
+    testGroupAnagrams();
+    // testIsAnagram();
     // testSorts()
     // testSortColors();
     // testMinSubArrayLen()
