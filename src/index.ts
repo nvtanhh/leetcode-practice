@@ -1,7 +1,9 @@
 import { testGroupAnagrams } from "./0049-group_anagram";
+import { testTopKFrequent } from "./0347-top_k_frequent_elements";
 
 function main() {
-    testGroupAnagrams();
+    testTopKFrequent();
+    // testGroupAnagrams();
     // testIsAnagram();
     // testSorts()
     // testSortColors();
