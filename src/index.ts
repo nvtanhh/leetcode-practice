@@ -1,9 +1,8 @@
-import { testMaxArea } from "./0011-container_with_most_water";
-import { testThreeSum } from "./0015-3_sum";
-import { testTwoSumII } from "./0167-two_sum II";
+import { testTrap } from "./0042-trapping_rain_water";
 
 function main() {
-    testMaxArea();
+    testTrap();
+    // testMaxArea();
     // testThreeSum();
     // testTwoSumII();
     // testIsPalindrome();
