@@ -1,8 +1,10 @@
+import { testMaxArea } from "./0011-container_with_most_water";
 import { testThreeSum } from "./0015-3_sum";
 import { testTwoSumII } from "./0167-two_sum II";
 
 function main() {
-    testThreeSum();
+    testMaxArea();
+    // testThreeSum();
     // testTwoSumII();
     // testIsPalindrome();
     // testLongestConsecutive();
