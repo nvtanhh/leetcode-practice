@@ -1,7 +1,9 @@
+import { testThreeSum } from "./0015-3_sum";
 import { testTwoSumII } from "./0167-two_sum II";
 
 function main() {
-    testTwoSumII();
+    testThreeSum();
+    // testTwoSumII();
     // testIsPalindrome();
     // testLongestConsecutive();
     // testIsValidSudoku();
