@@ -1,7 +1,8 @@
-import { testIsPalindrome } from "./0125-valid_palindrome";
+import { testTwoSumII } from "./0167-two_sum II";
 
 function main() {
-    testIsPalindrome();
+    testTwoSumII();
+    // testIsPalindrome();
     // testLongestConsecutive();
     // testIsValidSudoku();
     // testProductExceptSelf();

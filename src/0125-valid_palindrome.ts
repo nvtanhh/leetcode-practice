@@ -4,8 +4,8 @@ function isPalindrome(s: string): boolean {
     for (const char of s) {
         if (char === " ") {
             continue;
-
         }
+        
         if (!isNaN(Number(char))) {
             clearStr += char;
             continue;
@@ -18,7 +18,6 @@ function isPalindrome(s: string): boolean {
 
         clearStr += char.toLowerCase();
     }
-
 
     let l = 0, r = clearStr.length - 1;
     while (l < r) {
