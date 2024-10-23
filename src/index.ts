@@ -1,7 +1,8 @@
-import { testIsValidParentheses } from "./0020-valid_parentheses";
+import { testBinarySearch } from "./0704-binary_search";
 
 function main() {
-    testIsValidParentheses();
+    testBinarySearch();
+    // testIsValidParentheses();
     // testTrap();
     // testMaxArea();
     // testThreeSum();
