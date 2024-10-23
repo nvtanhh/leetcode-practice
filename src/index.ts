@@ -1,7 +1,8 @@
-import { testTrap } from "./0042-trapping_rain_water";
+import { testIsValidParentheses } from "./0020-valid_parentheses";
 
 function main() {
-    testTrap();
+    testIsValidParentheses();
+    // testTrap();
     // testMaxArea();
     // testThreeSum();
     // testTwoSumII();
