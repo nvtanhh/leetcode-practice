@@ -1,7 +1,9 @@
+import { testCharacterReplacement } from "./0424-longest_repeating_character_replacement";
 import { testBinarySearch } from "./0704-binary_search";
 
 function main() {
-    testBinarySearch();
+    testCharacterReplacement();
+    // testBinarySearch();
     // testIsValidParentheses();
     // testTrap();
     // testMaxArea();
