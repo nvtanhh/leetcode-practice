@@ -1,8 +1,8 @@
-import { testCharacterReplacement } from "./0424-longest_repeating_character_replacement";
-import { testBinarySearch } from "./0704-binary_search";
+import { testMinStack } from "./0155-min_stack";
 
 function main() {
-    testCharacterReplacement();
+    testMinStack();
+    // testCharacterReplacement();
     // testBinarySearch();
     // testIsValidParentheses();
     // testTrap();
