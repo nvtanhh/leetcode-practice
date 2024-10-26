@@ -1,7 +1,8 @@
-import { testMinStack } from "./0155-min_stack";
+import { testEvalRPN } from "./0150-evaluate_reverse_polish_notation";
 
 function main() {
-    testMinStack();
+    testEvalRPN();
+    // testMinStack();
     // testCharacterReplacement();
     // testBinarySearch();
     // testIsValidParentheses();
