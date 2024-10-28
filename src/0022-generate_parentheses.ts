@@ -27,7 +27,6 @@ function generateParenthesis(n: number): string[] {
 
     backTrack(0, 0);
 
-
     return res;
 };
 

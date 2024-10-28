@@ -1,7 +1,9 @@
 import { testGenerateParenthesis } from "./0022-generate_parentheses";
+import { testDailyTemperatures } from "./0739-daily_temperatures";
 
 function main() {
-    testGenerateParenthesis();
+    testDailyTemperatures()
+    // testGenerateParenthesis();
     // testEvalRPN();
     // testMinStack();
     // testCharacterReplacement();
