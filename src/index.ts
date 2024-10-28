@@ -1,7 +1,8 @@
-import { testEvalRPN } from "./0150-evaluate_reverse_polish_notation";
+import { testGenerateParenthesis } from "./0022-generate_parentheses";
 
 function main() {
-    testEvalRPN();
+    testGenerateParenthesis();
+    // testEvalRPN();
     // testMinStack();
     // testCharacterReplacement();
     // testBinarySearch();
