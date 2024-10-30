@@ -1,7 +1,8 @@
-import { testReverseStr } from "./0541-reverse_string_2";
+import { testCarFleet } from "./0853-car_fleet";
 
 function main() {
-    testReverseStr()
+    testCarFleet();
+    // testReverseStr()
     // testDailyTemperatures()
     // testGenerateParenthesis();
     // testEvalRPN();
