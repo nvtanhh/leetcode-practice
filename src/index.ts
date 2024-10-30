@@ -1,8 +1,8 @@
-import { testGenerateParenthesis } from "./0022-generate_parentheses";
-import { testDailyTemperatures } from "./0739-daily_temperatures";
+import { testReverseStr } from "./0541-reverse_string_2";
 
 function main() {
-    testDailyTemperatures()
+    testReverseStr()
+    // testDailyTemperatures()
     // testGenerateParenthesis();
     // testEvalRPN();
     // testMinStack();
