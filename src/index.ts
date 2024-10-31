@@ -1,7 +1,8 @@
-import { testCarFleet } from "./0853-car_fleet";
+import { testCheckInclusion } from "./0567-permutation_in_string";
 
 function main() {
-    testCarFleet();
+    testCheckInclusion();
+    // testCarFleet();
     // testReverseStr()
     // testDailyTemperatures()
     // testGenerateParenthesis();
