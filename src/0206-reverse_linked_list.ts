@@ -1,27 +1,17 @@
 import { ListNode } from "./models/listnode";
 
 function reverseList(head: ListNode | null): ListNode | null {
-    if (!head) {
-        return null;
+    let prev: ListNode | null = null;
+    let current: ListNode | null = head;
+
+    while (current) {
+        const next: ListNode | null = current.next;
+        current.next = prev;
+        prev = current;
+        current = next;
     }
 
-    const arr = [];
-
-    while (head) {
-        arr.push(head.val);
-        head = head.next;
-    }
-
-    const newHead = new ListNode();
-    let current = newHead;
-    for (let i = arr.length - 1; i >= 0; i--) {
-        current.val = arr[i]
-        if (i > 0) {
-            current.next = new ListNode();
-            current = current.next;
-}
-    }
-    return newHead;
+    return prev;
 };
 
 export function testReverseList() {
