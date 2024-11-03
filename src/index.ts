@@ -1,7 +1,8 @@
-import { testCheckInclusion } from "./0567-permutation_in_string";
+import { testReverseList } from "./0206-reverse_linked_list";
 
 function main() {
-    testCheckInclusion();
+    testReverseList()
+    // testCheckInclusion();
     // testCarFleet();
     // testReverseStr()
     // testDailyTemperatures()
