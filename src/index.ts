@@ -1,7 +1,8 @@
-import { testReverseList } from "./0206-reverse_linked_list";
+import { testReverseVowels } from "./twoPointers/0345-reverse_vowels";
 
 function main() {
-    testReverseList()
+    testReverseVowels();
+    // testReverseList()
     // testCheckInclusion();
     // testCarFleet();
     // testReverseStr()
