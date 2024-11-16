@@ -4,21 +4,21 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
     let dummy = new ListNode(0);
     dummy.next = head;
 
-    let first = dummy;
-    let second = dummy;
+    let l = dummy;
+    let r = dummy;
 
     // Move first n steps ahead
     for (let i = 0; i < n; i++) {
-        first = first.next;
+        l = l.next;
     }
 
     // Move both to the end, maintaining the gap
-    while (first.next) {
-        first = first.next;
-        second = second.next;
+    while (l.next) {
+        l = l.next;
+        r = r.next;
     }
 
-    second.next = second.next.next;
+    r.next = r.next.next;
 
     return dummy.next;
 };
