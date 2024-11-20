@@ -1,7 +1,8 @@
-import { testReverseVowels } from "./twoPointers/0345-reverse_vowels";
+import { testContainsNearbyDuplicate } from "./array/0219-contains_duplicate_II";
 
 function main() {
-    testReverseVowels();
+    testContainsNearbyDuplicate();
+    // testReverseVowels();
     // testReverseList()
     // testCheckInclusion();
     // testCarFleet();
