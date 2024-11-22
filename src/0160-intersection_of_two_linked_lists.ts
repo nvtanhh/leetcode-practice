@@ -1,4 +1,4 @@
-import { createLinkedList, ListNode } from "./models/listnode";
+import { createLinkedList, ListNode } from "./linkedlist/models/listnode";
 
 function getIntersectionNode(headA: ListNode | null, headB: ListNode | null): ListNode | null {
     const set = new Set();

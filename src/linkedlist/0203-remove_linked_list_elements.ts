@@ -1,4 +1,4 @@
-import { ListNode } from "../models/listnode";
+import { ListNode } from "./models/listnode";
 
 function removeElements(head: ListNode | null, val: number): ListNode | null {
     const dummy = new ListNode(0);

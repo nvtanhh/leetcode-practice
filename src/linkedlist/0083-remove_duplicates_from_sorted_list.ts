@@ -1,4 +1,4 @@
-import { ListNode } from "../models/listnode";
+import { ListNode } from "./models/listnode";
 
 function deleteDuplicates(head: ListNode | null): ListNode | null {
     let curr = head;

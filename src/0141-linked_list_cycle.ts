@@ -1,4 +1,4 @@
-import { createLinkedList, ListNode } from "./models/listnode";
+import { createLinkedList, ListNode } from "./linkedlist/models/listnode";
 
 function hasCycle(head: ListNode | null): boolean {
     const set = new Set();

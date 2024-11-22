@@ -1,4 +1,4 @@
-import { createLinkedList, ListNode } from "./models/listnode";
+import { createLinkedList, ListNode } from "./linkedlist/models/listnode";
 
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
     /*

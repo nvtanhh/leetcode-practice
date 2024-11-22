@@ -1,4 +1,4 @@
-import { ListNode } from "./models/listnode";
+import { ListNode } from "./linkedlist/models/listnode";
 
 function reverseList(head: ListNode | null): ListNode | null {
     let prev: ListNode | null = null;
